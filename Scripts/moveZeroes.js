@@ -25,8 +25,6 @@ function moveZeroes(nums = [], method = 1) {
             break;
         default:
             return_array = [{ status: false, message: 'Method Not Allowed!', result: [] }]
-
-
     }
 
     // ! // Return Array //
