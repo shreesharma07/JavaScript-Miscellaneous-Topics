@@ -24,11 +24,11 @@ function moveZeroes(nums = [], method = 1) {
             return_array = [...otherNums, ...zeroes];
             break;
         default:
-            return_array = [{ status: false, message: 'Method Not Allowed!', result: [] }]
+            return_array = [{ status: false, message: 'Method Not Allowed!', method: undefined, result: [] }]
     }
 
     // ! // Return Array //
-    return { method, return_array };
+    return [{ status: false, message: 'Successfully Moved Zeroes !', method: method, result: return_array }];
 }
 
 console.log(moveZeroes([7, 2, 0, 0, 0, 13, 8, 0, 78, 9, 0], 1));
