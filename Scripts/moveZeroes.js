@@ -28,7 +28,7 @@ function moveZeroes(nums = [], method = 1) {
     }
 
     // ! // Return Array //
-    return [{ status: false, message: 'Successfully Moved Zeroes !', method: method, result: return_array }];
+    return [{ status: true, message: 'Successfully Moved Zeroes !', method: method, result: return_array }];
 }
 
 console.log(moveZeroes([7, 2, 0, 0, 0, 13, 8, 0, 78, 9, 0], 1));
